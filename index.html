@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"><img src="img/Logo.png" alt="logo" width="100">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#Imagen Personal">Foto Personal</a></li>
+                <li><a href="#Datos Personales">Datos Personales</a></li>
+                <li><a href="#Datos Laborales">Datos Laborales</a></li>
+                <li><a href="#Proyectos Realizados">Poyectos Realizados</a></li>
+                <li><a href="#Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+<section class="hero">
+    <div class="hero-content">
+        <h1>Curriculum Vitae</h1>
+        <h2>Linda Julieth López Medina</h2>
+        <a  class="cta-button" href="#contacto">Contactar</a>
+       </div> 
+</section>
+
+<section class="Imagen Personal" id="Imagen Personal">
+    <h1 class="titulo"><u>Imagen de Presentación</u></h1>
+    <div class="Photo">
+    <img class="imgfoto" src="img/fotoCv.png" alt="Imagen Personal" width="260">
+    </div>
+</section>
+
+<section class="Datos Personales" id="Datos Personales">
+    <h1 class="titulo"><u>Datos Personales</u></h1>
+    <div class="lista">
+        <div class="Datos-personal">
+            <img src="img/perfil.svg" alt="usuario" width="160">
+            <h3>Nombre Comppleto</h3>
+            <p>Linda Julieth López Medina</p>
+        </div>
+        <div class="Dato-personal">
+          <img src="img/Profesion1.svg" alt="profesion" width="160">
+          <h3>Profesión</h3> 
+          <p>Estudiante universitaria</p>
+        </div>
+        <div class="Dato-personal">
+            <img src="img/educacion.svg" alt="carrera" width="170">
+            <h3>Carrera Universitaria</h3>
+            <p>Ingeniería en Sistemas de la Información</p>
+        </div>
+        <divb class="Dato-personal">
+            <img src="img/house.svg" alt="vivienda" width="90">
+            <h3>Universidad</h3>
+            <p>Universidad Nacional Autonóma de Nicaragua</p>
+        </div>
+        <div class="Dato-personal">
+            <h3 class="objetivo">Objetivo</h3>
+            <img class="imgobjetivo" src="img/objetivo.svg" alt="objetivo" width="120">
+            <p class="objetivo"> Preparación para terminar mi carrera con excelente preparación, 
+                y al mismo tiempo ser una ingeniria que le brinde soluciones
+                a empresas o instituciones que necesiten de mis servicios.    
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="Datos Laborales" id="Datos Laborales">
+  <h1 class="titulo"><u>Datos Laborales</u></h1>
+  <img class="imgempresa" src="img/laboral (2).svg" alt="empresa" width="130">  
+  <p class="Datoslab"> Actualmente estoy trabajando en el área de Soporte tecnico en <strong>Wimix Solutions and Service</strong>, 
+    tanbien soy encargada en manejo de las redes sociales para la tienda <strong>MIA MIA</strong>
+    , de igual forma trabaje en el área de administracion para la empresa 
+    <strong>Office Line Products</strong>
+</p>
+</section>
+
+<section class="Proyectos Realizados" id="Poyectos Realizados">
+    <h1 class="titulo"><u>Proyectos Realizados</u></h1>
+    <div class="proyecto-slider">
+      <div class="proyect">
+    <h3>Multi Print</h3>
+    <img src="img/web.svg" alt="excel" width="130">
+    <p>Pagina Web en Wordpress en la clase de comercio de las TIC
+         <strong>UNAN - MANAGUA</strong>
+     </p>   
+    </div>
+    <div class="proyect">
+      <h3>Sistema de Nómina</h3>
+     <img src="img/OLP.png" alt="nomins" width="130">
+     <p>Sistema de Nómina para la empresa
+       - <strong>OFFCIE LINE PRODUCTS</strong> </p>   
+    </div>  
+    </div>
+    
+</section>
+
+<section class="Contacto" id="Contacto">
+    <h2 class="titulo"><u>Contacto</u></h2>
+    <p><strong>Contactar</strong></p>
+    <a href="mailto:lopezmedinalindajulieth@gmail.com" class="cta-button">Enviar correo</a>
+    <br>
+    <h3></h3>
+    <form action="procesar.php" method="post">
+        <h2>Deja un mensaje</h2>
+        <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+             <textarea name="mensaje" id="mensaje" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="submit-button">Enviar Mensaje</button>
+    </form>
+</section>
+
+<section class="Footer" id="Footer">
+    <p>&copy;Curriculum Vitae. Todos los derechos reservados. 2023</p>
+</section>
+
+</body>
+</html>
